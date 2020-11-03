@@ -22,6 +22,9 @@ services:
       - docker/docker.env
     ports:
       - "8000:8000"
+      - "3000:3000"
+      - "3001:3001"
+
     volumes:
       - .:/site/proj/
     depends_on:
